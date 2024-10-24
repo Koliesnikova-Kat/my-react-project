@@ -1,0 +1,25 @@
+/* Profile.css */
+
+.header {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.item {
+  border: 2px solid;
+  border-radius: 10px;
+  margin: 50px auto;
+  width: 300px;
+}
+

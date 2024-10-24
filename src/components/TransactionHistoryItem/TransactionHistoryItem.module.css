@@ -1,0 +1,11 @@
+.td {
+  padding: 4px;
+  border: 2px solid;
+  text-align: center;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.tbody:nth-child(odd) {
+  background-color: #aba7a7;
+}

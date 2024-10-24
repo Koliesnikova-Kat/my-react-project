@@ -1,0 +1,51 @@
+/* ProfileData.css */
+
+.img {
+  margin: 10px auto;
+  display: block;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.info {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.light {
+color: #8e8989;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 2px solid rgb(144, 140, 140);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #c8ced5;
+  margin: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex: 1;
+  padding: 10px 0;
+  border-right: 2px solid rgb(144, 140, 140);
+}
+
+.item:last-child {
+  border-right: none;
+}
+
+span {
+  display: block;
+}
+
+span:last-child {
+  font-weight: bold;
+}
